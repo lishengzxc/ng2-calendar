@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  background-color: #0097a7;
+  color: #fff;
+  padding: 20px;
+}
+
+.header .year {
+  opacity: .7;
+  font-size: 16px;
+}
+
+.header .date {
+  font-size: 36px;
+}
+
+.body {
+
+}
+
+.body .monthyear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.body .monthyear .left {
+  border: 6px solid transparent;
+  border-right-color: #000;
+  cursor: pointer;
+}
+
+.body .monthyear .right {
+  border: 6px solid transparent;
+  border-left-color: #000;
+  cursor: pointer;
+}
+
+.body .monthyear .content {
+  font-size: 14px;
+}
+
+.body .days {
+  padding: 0 16px;
+}
+
+.body .days .week {
+  display: flex;
+  font-size: 12px;
+  color: #C7C7C7;
+}
+
+.body .days .week div {
+  width: 0;
+  flex: 1;
+  height: 20px;
+  text-align: center;
+}
+
+.body .days .day {
+  overflow: hidden;
+  color: grey;
+}
+
+.body .days .day div {
+  float: left;
+  width: 14.285714285714286%;
+  height: 38px;
+  line-height: 38px;
+  font-size: 12px;
+  text-align: center;
+}
+
